@@ -1,0 +1,36 @@
+engine: pybullet # Options: [raisim, pybullet]
+
+robot:
+  nominal_base_position: [0., 0., 0.522]
+  nominal_base_orientation: [1., 0., 0., 0.]  # Hz
+
+  # Default in RaiSim
+  joint_order:
+    [
+      "LF_HAA",
+      "LF_HFE",
+      "LF_KFE",
+      "RF_HAA",
+      "RF_HFE",
+      "RF_KFE",
+      "LH_HAA",
+      "LH_HFE",
+      "LH_KFE",
+      "RH_HAA",
+      "RH_HFE",
+      "RH_KFE",
+    ]
+
+  nominal_joint_configuration:
+    [
+      -0.089, 0.712, -1.03,
+      0.089, 0.712, -1.03,
+      -0.089, -0.712, 1.03,
+      0.089, -0.712, 1.03,
+    ]
+
+frequency:
+  simulation: 200 # Hz
+  actuation: 200 # Hz
+
+  motion_control: 10 # Hz; Make sure the policy exists in the resources/parameters/controller directory
