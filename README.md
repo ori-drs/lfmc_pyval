@@ -8,7 +8,7 @@ It can be used with both
 Switching between the two engines is extremely simple.
 
 Project website: https://ori-drs.github.io/lfmc/ </br>
-Training Repository: https://github.com/ori-drs/lfmc_gym </br>
+Training repository: https://github.com/ori-drs/lfmc_gym </br>
 Deployment (C++): https://github.com/ori-drs/lfmc_cval </br>
 
 ---
