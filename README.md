@@ -92,6 +92,11 @@ python scripts/command_tracking.py
         ├── parameters                  # Network parameters for locomotion and actuation
     └── scripts                         # Python scripts
         ├── command_tracking.py         # Example script for executing command tracking policy
+    └── simulation                      # Simution utilities
+        ├── actuation.py                # Contains the actuator network class for ANYmal C
+        ├── pybullet.py                 # Interface utility for PyBullet
+        ├── raisim.py                   # Interface utility for RaisimPy
+        ├── wrapper.py                  # Wrapper to switch between PyBullet and RaisimPy
     └── setup.py                        # Installs LFMC-PyVal and dependencies
 
 ### Author(s)
