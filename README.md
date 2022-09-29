@@ -13,14 +13,14 @@ only applicable if you would like to use RaisimPy.
 Ensure that you have
 compiled it and that ```$PYTHONPATH``` contains the 
 RaisimPy install location.
-```console
+```bash
 export PYTHONPATH=$PYTHONPATH:<raisim-install-directory>/lib
 ```
 
 ### Clone
 To clone ```lfmc_pyval```, use the following command. The Python
 version does not depend on other repositories.
-```console
+```bash
 git clone git@github.com:ori-drs/lfmc_pyval.git
 ```
 
@@ -32,19 +32,19 @@ It is recommended that you use a
 [virtual environment](https://docs.python.org/3/tutorial/venv.html).
 
 If ```python3-venv``` is not already installed, use the following command.
-```console
+```bash
 sudo apt-get install python3-venv
 ```
 
 Now create and source a virtual environment. 
-```console
+```bash
 cd lfmc_pyval
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 The dependencies can then be installed by
-```console
+```bash
 pip install -e .
 ```
 
@@ -55,7 +55,7 @@ This will install ```numpy```, ```torch```, ```pybullet```, and
 
 To run the included example, just use the following command.
 
-```console
+```bash
 python scripts/command_tracking.py
 ```
 
@@ -75,7 +75,7 @@ engine: raisim # Options: [raisim, pybullet]
 Assuming ```RaisimUnity``` has been launched for visualization,
 you can execute the ```command_tracking.py``` script just as before.
 The example will now utilize the Raisim engine.
-```console
+```bash
 python scripts/command_tracking.py
 ```
 
