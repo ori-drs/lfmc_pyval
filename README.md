@@ -7,7 +7,11 @@ It can be used with both
 [RaisimPy](https://raisim.com/sections/RaiSimPy.html).
 Switching between the two engines is extremely simple.
 
-Project website: https://ori-drs.github.io/lfmc/
+Project website: https://ori-drs.github.io/lfmc/ </br>
+Training Repository: https://github.com/ori-drs/lfmc_gym </br>
+Deployment (C++): https://github.com/ori-drs/lfmc_cval </br>
+
+---
 
 ### Prerequisites
 This is **optional** and is 
