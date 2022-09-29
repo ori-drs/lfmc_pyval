@@ -7,6 +7,8 @@ It can be used with both
 [RaisimPy](https://raisim.com/sections/RaiSimPy.html).
 Switching between the two engines is extremely simple.
 
+Project website: https://ori-drs.github.io/lfmc/
+
 ### Prerequisites
 This is **optional** and is 
 only applicable if you would like to use RaisimPy. 
