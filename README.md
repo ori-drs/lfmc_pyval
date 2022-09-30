@@ -8,8 +8,24 @@ It can be used with both
 Switching between the two engines is extremely simple.
 
 Project website: https://ori-drs.github.io/lfmc/ </br>
+
 Training repository: https://github.com/ori-drs/lfmc_gym </br>
 Deployment (C++): https://github.com/ori-drs/lfmc_cval </br>
+
+### Manuscript
+
+Preprint: https://arxiv.org/abs/2209.14887
+
+```
+@article{lfmc-locomotion,
+  title = {Learning Low-Frequency Motion Control for Robust and Dynamic Robot Locomotion},
+  author = {Gangapurwala, Siddhant and Campanaro, Luigi and Havoutis, Ioannis},
+  url = {https://arxiv.org/abs/2209.14887},
+  publisher = {arXiv},  
+  year = {2022},
+  doi = {10.48550/ARXIV.2209.14887},
+}
+```
 
 ---
 
