@@ -74,7 +74,7 @@ class Actuation:
         self._device = device
 
         self._actuator_network = actuator_network if actuator_network is not None else ActuatorNetwork()
-        self._actuator_network.load_state_dict(torch.load(parameters_path))
+        self._actuator_network.load_state_dict(torch.load(parameters_path, map_location=torch.device('cpu')))
 
         self._actuator_network.to(device)
 

@@ -7,7 +7,7 @@ setup(
     url='https://github.com/ori-drs/lfmc_pyval',
     author='Siddhant Gangapurwala',
     author_email='siddhant@robots.ox.ac.uk',
-    python_requires='>=3.6.0,<3.9.0',
+    python_requires='>=3.6.0,<3.10.0',
     install_requires=[
         'pyyaml',
         'numpy',

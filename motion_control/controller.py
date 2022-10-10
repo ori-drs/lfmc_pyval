@@ -18,7 +18,7 @@ class Controller:
             in_dim=state_dim, out_dim=action_dim, hidden_layers=policy_layers, activation=policy_activation, dropout=0.)
 
         policy_state_dict = self._validate_state_dict(
-            torch.load(parameters_path + '/policy.pt')
+            torch.load(parameters_path + '/policy.pt', map_location=torch.device('cpu'))
         )
 
         self._policy_network.load_state_dict(policy_state_dict)
